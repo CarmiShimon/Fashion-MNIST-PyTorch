@@ -24,11 +24,8 @@ Set | #Train | #Validation | #Test |
 #images | 48K | 12K | 10K |  
 
 **3 Layer simple DNN Results:**  
-![DNN_RES](./images/DNN.jpg)  
-![DNN_CM](./images/DNN_cm.jpg)  
+![DNN_RES](./images/DNN.jpg) ![DNN_CM](./images/DNN_cm.jpg)  
 
 **2 Layer CNN + BN + MaxPool + L2 Regularization + 30% Drop-out Results:**  
-![CNN_RES](./images/cnn_res.jpg)  
-![CNN_CM](./images/cnn_cm.jpg)  
-![CNN_tsne_train](./images/cnn_tsne_train.jpg)  
-![CNN_cnn_tsne_test](./images/cnn_cm.jpg)  
+![CNN_RES](./images/cnn_res.jpg) ![CNN_CM](./images/cnn_cm.jpg)  
+![CNN_tsne_train](./images/cnn_tsne_train.jpg) ![CNN_cnn_tsne_test](./images/cnn_tsne_test.jpg)  
