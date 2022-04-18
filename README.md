@@ -17,7 +17,11 @@ A dataset which contains 70,000 grayscale images in 10 categories
 - Shirt
 - Sneaker
 - Bag
-- Ankle boot
+- Ankle boot  
+
 Set | #Train | #Validation | #Test |
 --- | --- | --- | --- |
-#images | 48K | 12K | 10K | 
+#images | 48K | 12K | 10K |  
+
+**3 Layer simple DNN Results:**  
+![DNN](./images/DNN.jpg)  
