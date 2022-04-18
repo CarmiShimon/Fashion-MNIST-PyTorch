@@ -9,4 +9,4 @@ Fashion-MNIST is a set of 28x28 grayscale images of clothes. A dataset which con
 
 Set | #Train | #Validation | #Test |
 --- | --- | --- | --- |
-#images | 301 | 283 | 290 | 
+#images | 48K | 12K | 10K | 
