@@ -37,4 +37,5 @@ Class 0 - Top: T-Shirt/Top (0), Pullover (2), Dress (3), Coat (4), Shirt (6)
 Class 1 - Bottom: Trouser (1), Sandal (5), Sneaker (7), Ankle Boot (9)  
 Class 2 - Accessories: Bag (8)  
 ![3class_RES](./images/3class_res.png) ![3class_CM](./images/3class_cm.png)   
+![3class_tsne_test](./images/3class_tsne_test.png)   
 
