@@ -32,10 +32,9 @@ Set | #Train | #Validation | #Test |
 ![CNN_RES](./images/cnn_res.jpg) ![CNN_CM](./images/cnn_cm.jpg)   
 **TSNE on Train and Test (128 Latent feature vectors)**  
 ![CNN_tsne_train](./images/cnn_tsne_train.jpg) ![CNN_cnn_tsne_test](./images/cnn_tsne_test.jpg)  
-
 **Data Manipulation (Merge Classes): **  
 Class 0 - Top: T-Shirt/Top (0), Pullover (2), Dress (3), Coat (4), Shirt (6)  
 Class 1 - Bottom: Trouser (1), Sandal (5), Sneaker (7), Ankle Boot (9)  
 Class 2 - Accessories: Bag (8)  
-![CNN_RES](./images/cnn_res.jpg) ![CNN_CM](./images/cnn_cm.jpg)   
+![3class_RES](./images/3class_res.png) ![3class_CM](./images/3class_cm.png)   
 
