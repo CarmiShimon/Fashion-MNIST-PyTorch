@@ -24,7 +24,7 @@ Set | #Train | #Validation | #Test |
 #images | 48K | 12K | 10K |  
 
 **Installations**  
-```pip install torch, torchvision, tensorflow, sklearn```
+```pip install torch, torchvision, tensorflow, sklearn```  
 **3 Layer simple DNN Results:**  
 ![DNN_RES](./images/DNN.jpg) ![DNN_CM](./images/DNN_cm.jpg)  
 
