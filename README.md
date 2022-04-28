@@ -39,8 +39,8 @@ Class 2 - Accessories: Bag (8)
 ![3class_RES](./images/3class_res.png) ![3class_CM](./images/3class_cm.png)   
 **TSNE on Test (128 Latent feature vectors)**  
 ![3class_tsne_test](./images/3class_tsne_test.png)   
-## Data Augmentation:  
-**'noise', 'RandomRotation', 'RandomHorizontalFlip', 'brightness', 'contrast', 'RandomResizedCrop'**  
+## Data Augmentation ('noise', 'RandomRotation', 'RandomHorizontalFlip', 'brightness', 'contrast', 'RandomResizedCrop'):  
+ 
 **'Noise'**
 ```transforms.Compose([transforms.ToTensor(), AddGaussianNoise(0.1, 0.08)])```  
 ![noiseAug](./images/noise.png)  
