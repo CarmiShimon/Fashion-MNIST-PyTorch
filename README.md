@@ -39,4 +39,24 @@ Class 2 - Accessories: Bag (8)
 ![3class_RES](./images/3class_res.png) ![3class_CM](./images/3class_cm.png)   
 **TSNE on Test (128 Latent feature vectors)**  
 ![3class_tsne_test](./images/3class_tsne_test.png)   
+## Data Augmentation:  
+**'noise', 'RandomRotation', 'RandomHorizontalFlip', 'brightness', 'contrast', 'RandomResizedCrop'**  
+**'Noise'**
+```transforms.Compose([transforms.ToTensor(), AddGaussianNoise(0.1, 0.08)])```  
+![noiseAug](./images/noise.png)  
+**'RandomRotation', 5%**  
+```transforms.Compose([transforms.ToTensor(), transforms.RandomRotation(degrees=5)])```  
+![RandomRotationAug](./images/random_rotation.png)  
+**'RandomHorizontalFlip', 90% probability**  
+```transforms.Compose([transforms.ToTensor(), transforms.RandomHorizontalFlip(p=0.9)])```
+![RandomHorizontalFlip](./images/Random_horizontal_flip.png)  
+**'brightness', 50%**  
+```transforms.Compose([transforms.ToTensor(), transforms.ColorJitter(brightness=0.5)])```  
+![Brightness](./images/brightness.png)  
+**'contrast', 50%**  
+```transforms.Compose([transforms.ToTensor(), transforms.ColorJitter(contrast=0.5)])```  
+![Contrast](./images/contrast.png)   
+**'RandomResizedCrop', original size=28X28 pixels**  
+```transforms.Compose([transforms.ToTensor(), transforms.RandomResizedCrop(size=(28, 28))])```  
+![RandomResizedCrop](./images/random_resized_crop.png)   
 
