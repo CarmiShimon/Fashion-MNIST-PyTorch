@@ -49,7 +49,7 @@ Class 2 - Accessories: Bag (8)
 ![RandomRotationAug](./images/random_rotation.png)  
 **'RandomHorizontalFlip', 90% probability**  
 ```transforms.Compose([transforms.ToTensor(), transforms.RandomHorizontalFlip(p=0.9)])```
-![RandomHorizontalFlip](./images/Random_horizontal_flip.png)  
+![RandomHorizontalFlip](./images/random_horizontal_flip.png)  
 **'brightness', 50%**  
 ```transforms.Compose([transforms.ToTensor(), transforms.ColorJitter(brightness=0.5)])```  
 ![Brightness](./images/brightness.png)  
